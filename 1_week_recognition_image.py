@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import cv2
 
-file_path = '../../../Downloads/test_image/cat1.jpg'
+file_path = '/Users/jehoon/Downloads/test_image/cat1.jpg'
 img = cv2.imread(file_path)
 
 ## 이미지 tensor 표현값으로 가져옴
